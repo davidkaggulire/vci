@@ -19,6 +19,10 @@ body{
     margin-right: 100px;
 }
 
+.header{
+    z-index: 12;
+}
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -26,7 +30,6 @@ body{
     background-color: #EFEBEB;
     padding: 40px;
     margin: 0 auto;
-    z-index: -20;
 }
 
 .nav-bar li{
@@ -56,6 +59,17 @@ body{
 .main-image{
     margin-top: -20px;
     background-image:url('../img/team.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding:2rem;
+    background-color: transparent;
+}
+
+.about-image{
+    margin-top: -20px;
+    background-image:url('../img/emma.JPG');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,6 +185,22 @@ body{
 
 .vci-text{
     text-align: justify;
+}
+
+/* objectives */
+.objectives{
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+}
+
+#objective-head{
+    color:rgba(247, 129, 19, 0.884);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:32px;
+    margin-top: 2%;
 }
 
 /* footer */
