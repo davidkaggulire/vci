@@ -59,9 +59,26 @@ body{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 600px;
     padding:2rem;
     background-color: transparent;
+}
+
+.main-head{
+    color:rgba(247, 129, 19, 0.884);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:32px;
+    margin-top: 20%;
+}
+
+.main-link{
+    text-decoration:none;
+    text-align:center;
+    background-color: var(--dark);
+    padding: 10px;
+    color:white;
 }
 
 .heading{
@@ -86,9 +103,11 @@ body{
 
 .content{
     padding: 10px;
-    width: 100%;
+    /* width: 99%; */
     height: 100%;
+    margin: 0 auto;
     color:var(--dark);
+    background-color: 	#FFA500;
     min-height: 400px;
 }
 
@@ -107,7 +126,7 @@ body{
     margin: 12px;
     padding: 5px;
     width:30%;
-    box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .vci-vision:hover{
@@ -125,7 +144,7 @@ body{
     margin: 12px;
     padding: 5px;
     width:30%;
-    box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .vci-mission:hover{
@@ -138,7 +157,7 @@ body{
     border-radius: 5px;
     padding: 5px;
     width:30%;
-    box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .vci-purpose:hover{
@@ -183,14 +202,17 @@ body{
 .aboutus{
     padding:2px;
     margin:10px;
+    width:20%;
 }
 
 .offices{
     padding:2px;
     margin:10px;
+    width:30%;
 }
 
 .contact{
     padding:2px;
     margin:10px;
+    width:30%;
 }
